@@ -50,3 +50,7 @@ unsetopt correct
 
 # run fortune on new terminal :)
 # fortune
+
+  # Set Spaceship ZSH as a prompt
+  autoload -U promptinit; promptinit
+  prompt spaceship
